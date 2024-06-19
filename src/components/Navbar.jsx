@@ -10,7 +10,13 @@ function Navbar() {
         </li>
         <li>
           <TopNavLink href="/posts">Posts</TopNavLink>
+          <ul>
+            <li>
+              <TopNavLink href="/posts/create">Create a new post</TopNavLink>
+            </li>
+          </ul>
         </li>
+
         <li>
           <TopNavLink href="/profile">Profile</TopNavLink>
         </li>
